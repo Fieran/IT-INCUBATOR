@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: gold;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    line-height: normal;
+    min-width: 375px;
+}
+
+
+/* header */
+
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px 0 15px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+header {
+    background-color: #3F3D56;
+    height: 80px;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+button {
+    border-radius: 5px;
+    border: 2px solid #FFF;
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+}
+
+button a {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.32px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 400px) {
+    .header__logo {
+        width: 160px;
+        height: 36px;
+    }
+}
+
+/* main */
+
+
+main {
+    background-color: #9F9EAA;
+    color: #2F2E41;
+    padding: 50px 0 50px 0;
+}
+
+.main__wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
+    font-size: 44px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.main__card {
+    width: 330px;
+    padding: 46px 20px; 
+    border-radius: 5px;
+    border: 2px solid #6C63FF;
+    background-color: #FFF;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -0.44px;
+    text-transform: uppercase;
+}
+
+.card__img {
+    margin-bottom: 40px;
+}
+
+.main__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.32px;
+    text-align: center;
+}
+
+span {
+    font-weight: 700;
+}
+
+
+/* footer */
+
+
+footer {
+    padding: 20px 0;    
+    background-color: #3F3D56;
+}
+
+.nav__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    flex-wrap: wrap;
+}
+
+.nav__link {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.32px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+
+.nav__list {
+    padding: 9px 15px;
+    flex-grow: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.nav__img {
+    margin-right: 10px;
+}
